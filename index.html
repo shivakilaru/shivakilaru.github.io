@@ -1,0 +1,284 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no">
+        <meta property="og:image" content="http://shivakilaru.com/icon-2020.png"/>
+        <meta property="og:title" content="Shiva Kilaru"/>
+        <meta property="og:description" content="Director, writer, actor"/>
+        <meta property="og:url" content="http://shivakilaru.com"/>
+        <meta property="og:type" content="website"/>
+        <link rel="icon" href="http://www.shivakilaru.com/favicon-2020.ico"/>
+
+        <title>Shiva Kilaru | Director, writer, actor</title>
+
+        <style>
+            * { 
+                margin: 0; 
+                padding: 0; 
+            }
+            a {
+                text-decoration: none;
+            }
+            body { 
+                background: #0000fe;
+                color: white;
+                max-width: 960px; 
+                height: 100%;
+                margin: 0 auto; 
+                font-family: 'Courier', 'Courier New', 'sans-serif';
+                opacity: 1;
+                transform: translateY(0);
+                transition: opacity 0.7s ease, transform 0.7s ease;
+            }
+            body.hidden {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            .page-container {
+                margin-top: 175px;
+                padding: 0 25px 100px 25px;
+                position: relative;
+            }
+            .title-container { 
+                position: relative;
+                display: block;
+                width: 300px;
+            }
+            .title {
+                font-size: 24px;
+                letter-spacing: 10px;
+                text-transform: uppercase;
+                background: white;
+                color: #0000fe;
+                padding: 7px 4px 7px 14px;
+                display: inline-block;
+                position: relative;
+                width: 300px;
+                text-align: center;
+                z-index: 2;
+            }
+            .title-bg {
+                background: rgba(205,64,143,1);
+                background: linear-gradient(90deg, rgba(205,64,143,1) 0%, rgba(40,113,250,1) 100%);
+                width: 320px;
+                height: 41px;
+                position: absolute;
+                top: 6px;
+                left: 3px;
+            }
+            .photo-container {
+                float: right;
+                margin-right: 95px;
+                margin-top: 30px;
+                width: 200px;
+                height: 200px;
+                transform: rotate(7deg);
+                margin-left: 100px;
+            }
+            .photo {
+                width: 100%;
+                z-index: 2;
+                position: absolute;
+            }
+            .photo-bg {
+                background: rgba(205,64,143,1);
+                background: linear-gradient(90deg, rgba(205,64,143,1) 0%, rgba(40,113,250,1) 100%);
+                width: calc(100% + 14px);
+                height: calc(100% + 6px);
+                position: absolute;
+                top: -7px;
+                z-index: 0;
+                left: -7px;
+            }
+            .body-text {
+                margin-top: 30px;
+                width: 500px;
+            }
+            .body-text p {
+                font-size: 16px;
+                margin: 15px 0;
+                line-height: 1.4em;
+            }
+            .body-link, .body-link:visited {
+                color: white;
+                padding: 0 5px;
+                background: white;
+                color: #0000fe;
+            }
+            .body-link:hover {
+                background: rgba(205,64,143,1);
+                color: white;
+            }
+            .videos-title {
+                text-align: center;
+                margin: 50px auto 20px auto;
+            }
+            .videos-container {
+                display: grid;
+                column-gap: 20px;
+                row-gap: 40px;
+                grid-column-gap: 20px;
+                grid-row-gap: 40px;
+                grid-template-columns: 50% 50%;
+                grid-template-rows: auto;
+            }
+            .video {
+                text-align: center;
+            }
+            .video-title {
+                margin-top: 10px;
+                text-transform: uppercase;
+                font-size: 16px;
+            }
+            .video-subtitle {
+                margin-top: 10px;
+                font-size: 14px;
+            }
+            .video-publish-date {
+                font-size: 10px;
+                opacity: 0.8;
+                margin-top: 10px;
+            }
+
+            @media (max-width: 800px) {
+                .page-container {
+                    margin-top: 50px;
+                    padding: 0 20px 50px 20px;
+                }
+                .title-container { 
+                    margin: 0 auto 50px auto;
+                    width: 280px;
+                }
+                .title {
+                    font-size: 18px;
+                    width: 260px;
+                }
+                .title-bg {
+                    width: 280px;
+                    top: 3px;
+                    height: 37px;
+                }
+                .photo-container {
+                    float: none;
+                    width: 175px;
+                    margin: 60px auto 0 auto;
+                    transform: rotate(5deg);
+                }
+                .photo-bg {
+                    height: 182px;
+                }
+                .body-text {
+                    width: 100%;
+                    margin-top: 15px;
+                }
+                .videos-container {
+                   grid-template-columns: 100%;
+                }
+                .video iframe {
+                    height: calc(0.5 * 100vw) !important;
+                }
+            }
+        </style>
+    </head>
+
+    <body class="hidden">
+        <script>
+            console.log("https://www.youtube.com/watch?v=Vhh_GeBPOhs");
+
+            document.addEventListener('DOMContentLoaded', function() {
+                setTimeout(function() {
+                    document.body.classList.remove('hidden');
+                }, 200);
+            });
+        </script>
+
+        <img src="icon-2020.png" style="display:none"/>
+
+        <div class="page-container">
+            <div class="title-container">
+                <div class="title">Shiva Kilaru</div>
+                <div class="title-bg"></div>
+            </div>
+
+            <div class="photo-container">
+                <img class="photo" src="shiva-1.png">
+                <div class="photo-bg"></div>
+            </div>
+
+            <div class="body-text">
+                <p>
+                    Hi, I'm Shiva.
+                </p>
+
+                <p>
+                    I make videos. Usually as a director, but often also as writer and actor.
+                </p>
+
+                <p>
+                    I’m 1/2 of the YouTube channel <a class="body-link" href="https://www.youtube.com/KRAZAM" target="_blank">KRAZAM</a>, along with my friend Ben. We make sketch comedy about tech. Our videos have been viewed millions of times, been featured in <a class="body-link" href="https://www.fastcompany.com/90282010/this-funny-video-suggests-maximizing-your-productivity-is-ruining-your-life" target="_blank">Fast Company</a>, reached the top of Reddit, and prompted a <a class="body-link" href="https://twitter.com/ShivaKilaru/status/1197903549633572867" target="_blank">2000-word essay in YouTube comment form</a>, among other things.
+                </p>
+
+                <p>
+                    The best way to get in touch with me is via <a class="body-link" href="https://twitter.com/ShivaKilaru" target="_blank">Twitter</a> or via email at shiva [at] krazam.tv.
+                </p>
+            </div>
+
+            <div class="videos-title">some of my work:</div>
+
+            <div class="videos-container">
+                 <!-- Designer's Table -->
+                <div class="video">
+                    <iframe width="100%" height="250" src="https://www.youtube.com/embed/WqjUlmkYr2g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <div class="video-title">Designer's Table</div>
+                    <div class="video-subtitle">office furniture documentary</div>
+                    <div class="video-publish-date">4.13.20</div>
+                </div>
+
+                <!-- Microservices -->
+                <div class="video">
+                    <iframe width="100%" height="250" src="https://www.youtube.com/embed/y8OnoxKotPQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <div class="video-title">Microservices</div>
+                    <div class="video-subtitle">"it has to do with the way our backend works"</div>
+                    <div class="video-publish-date">3.25.20</div>
+                </div>
+
+                <!-- The Hustle -->
+                <div class="video">
+                    <iframe width="100%" height="250" src="https://www.youtube.com/embed/_o7qjN3KF8U" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <div class="video-title">The Hustle</div>
+                    <div class="video-subtitle">time flies when you're hustling</div>
+                    <div class="video-publish-date">11.30.18</div>
+                </div>
+
+                <!-- MAKRO -->
+                <div class="video">
+                    <iframe width="100%" height="250" src="https://www.youtube.com/embed/xubbVvKbUfY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <div class="video-title">MAKRO | Microsoft Excel Stream</div>
+                    <div class="video-subtitle">the biggest streamer in enterprise software</div>
+                    <div class="video-publish-date">3.28.19</div>
+                </div>
+
+                <!-- Videochat -->
+                <div class="video">
+                    <iframe width="100%" height="250" src="https://www.youtube.com/embed/P8KaTrGpGg0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <div class="video-title">Videochat</div>
+                    <div class="video-subtitle">facetime isn't working</div>
+                    <div class="video-publish-date">1.29.19</div>
+                </div>
+
+                <!-- Senior Engineer -->
+                <div class="video">
+                    <iframe width="100%" height="250" src="https://www.youtube.com/embed/eSqexFg74F8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <div class="video-title">Senior Engineer</div>
+                    <div class="video-subtitle">coding interview</div>
+                    <div class="video-publish-date">8.24.17</div>
+                </div>
+            </div>
+
+           
+
+
+        </div>
+
+    </body>
+</html>
